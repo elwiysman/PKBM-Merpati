@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran - PKBM Merpati</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      main P {
+        text-align: center;
+        color: #980000;
+      }
+      .button-wrapper {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .button {
+        display: inline-block;
+        background: linear-gradient(45deg, #d0e8ff, #ff9292);
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .button:hover {
+        background: linear-gradient(45deg, #ff9292, #d0e8ff);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <div class="header-right">
+        <a
+          href="index.html"
+          style="text-decoration: none; display: flex; align-items: center"
+        >
+          <img src="LogoH.png" alt="Logo" class="logo-img" />
+          <h1 style="color: inherit">PKBM Merpati</h1>
+        </a>
+      </div>
+      <div class="overlay"></div>
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="profile.html">Profil</a></li>
+          <li><a href="regist.html">Pendaftaran</a></li>
+          <li><a href="announce.html">Pengumuman</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="overlay"></div>
+
+    <main>
+      <h2 class="Pendaftaran">Formulir Pendaftaran</h2>
+      <p>
+        Silakan klik tombol di bawah ini untuk mengisi formulir pendaftaran:
+      </p>
+
+      <div class="button-wrapper">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc8S45I-cdeP0-7srix39dR2hlMVj91RFqCQlx3OYszoF0ttA/viewform"
+          class="button"
+          target="_blank"
+        >
+          Buka Formulir Pendaftaran
+        </a>
+      </div>
+    </main>
+
+    <button id="backToTop" title="Kembali ke Atas">⬆</button>
+
+    <footer>
+      <p>&copy; 2025 PKBM Merpati. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document
+        .getElementById("hamburger")
+        .addEventListener("click", function () {
+          var menu = document.getElementById("nav-menu");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
