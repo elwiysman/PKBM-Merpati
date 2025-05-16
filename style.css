@@ -384,6 +384,10 @@ footer {
   line-height: 2;
 }
 
+.identitas-container ul {
+  text-align: left;
+}
+
 .identitas-container h5 {
   color: #980000;
   margin-top: 0;
@@ -424,7 +428,7 @@ main h2 {
   color: #980000;
   padding: 120px;
   padding-bottom: 0;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -528,14 +532,20 @@ main h2 {
     font-size: 16px;
   }
 
+  .visi-misi-box h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0;
+}
+
   .galeri img {
     width: 90%;
     margin: 10px auto;
   }
 
   main h2 {
-    padding: 60px 10px 0 10px;
-    font-size: 22px;
+    padding: 100px 10px 0 10px;
+    font-size: 24px;
   }
 
   .wa-icon {
