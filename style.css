@@ -449,6 +449,7 @@ main h2 {
     flex-direction: row;
     height: auto;
     text-align: center;
+    padding: 5px 15px;
   }
 
   .header-left,
