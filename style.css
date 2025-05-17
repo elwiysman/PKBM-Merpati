@@ -448,6 +448,13 @@ main h2 {
   padding-bottom: 30px;
 }
 
+*, *:focus, *:active {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+
 /* RESPONSIVE UNTUK LAYAR HP */
 @media (max-width: 768px) {
   header {
@@ -556,6 +563,11 @@ main h2 {
   .gmail-icon {
     width: 35px;
   }
+
+  #jadpen {
+    width: 92%;
+  }
+    
 
   footer {
     padding: 1%;
